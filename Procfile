@@ -1,2 +1,2 @@
-web: ./fuseki-server --port=$PORT --file=Data/books.ttl /ds
-private: ./fuseki-server --port=56276 --file=Data/books.ttl /ds
+web: java -jar fuseki-server.jar --port=$PORT --file=Data/books.ttl /ds
+private: java -jar fuseki-server.jar --port=56276 --file=Data/books.ttl /ds

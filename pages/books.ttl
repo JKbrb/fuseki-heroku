@@ -11,37 +11,4 @@
 # aggregation or was created at different times.
 
 :book1
-    dc:title    "Harry Potter and the Philosopher's Stone" ;
-    dc:creator  "J.K. Rowling" ;
-    .
-    
-:book2
-    dc:title    "Harry Potter and the Chamber of Secrets" ;
-    dc:creator  _:a .
-    
-:book3
-    dc:title    "Harry Potter and the Prisoner Of Azkaban" ;
-    dc:creator  _:a .
-    
-:book4
-    dc:title    "Harry Potter and the Goblet of Fire" .
-    
-:book5
-    dc:title    "Harry Potter and the Order of the Phoenix";
-    dc:creator  "J.K. Rowling" ;
-    .
-
-:book6
-    dc:title    "Harry Potter and the Half-Blood Prince";
-    dc:creator  "J.K. Rowling" .
-
-:book7
-    dc:title    "Harry Potter and the Deathly Hallows" ;
-    dc:creator  "J.K. Rowling" .
-_:a
-    vcard:FN "J.K. Rowling" ;
-    vcard:N
-        [ vcard:Family "Rowling" ;
-          vcard:Given "Joanna" 
-        ]
-    .
+    dc:title    "Harry Potter and the Philosopher's Stone".

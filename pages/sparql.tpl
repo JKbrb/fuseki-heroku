@@ -69,23 +69,5 @@
     </div>
     <hr/>
 
-    <p><b>SPARQL Update</b></p>
-    <div class="moreindent">
-      <form action="${ds}/${srvUpdate}" method="post" accept-charset="UTF-8">
-        <textarea name="update" cols="70" rows="10"></textarea>
-	    <br/>
-        <input type="submit" value="Perform update" />
-      </form>
-    </div>
-    <hr/>
-    <p><b>File upload</b></p>
-    <div class="moreindent">
-      <form action="${ds}/${srvUpload}" enctype="multipart/form-data" method="post">
-        File: <input type="file" name="UNSET FILE NAME" size="40"><br/>
-        Graph: <input name="graph" size="20" value="default"/><br/>
-        <input type="submit" value="Upload">
-      </form>
-    </div>
-    <hr/>
       </body>
 </html>   
